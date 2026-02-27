@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 const rateLimit = require('express-rate-limit');
 const path = require('path');
@@ -177,3 +178,4 @@ app.listen(PORT, () => {
   console.log(`NEXUS-BOT CTF server running on port ${PORT}`);
   console.log(`FLAG is loaded in memory — never exposed to client.`);
 });
+app.use(cors());
