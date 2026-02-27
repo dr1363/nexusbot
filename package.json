@@ -1,5 +1,6 @@
 {
   "name": "nexusbot-ctf",
+  "cors": "^2.8.5"
   "version": "1.0.0",
   "description": "HackCTF - Basic Prompt Injection Challenge",
   "main": "server/index.js",
